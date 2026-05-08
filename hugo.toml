@@ -1,0 +1,61 @@
+baseURL = 'https://aidev-log.vercel.app/'
+locale = 'ja-jp'
+defaultContentLanguage = 'ja'
+title = 'aidev_log'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Claude Codeに作らせた個人開発の現場ログ。n8n × Docker × AI で詰まったところを記録します。"
+  author = "aidev_log"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowRssButtonInSectionTermList = true
+  ShowWordCount = false
+  ShowFullTextinRSS = false
+
+[params.homeInfoParams]
+  Title = "aidev_log"
+  Content = "Claude Codeに作らせた個人開発の現場ログ。n8n × Docker × AI 系のニッチで詰まったところを残しています。"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/aidev_log_jp"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
