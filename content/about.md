@@ -26,4 +26,4 @@ disableShare: true
 
 記事へのご感想・指摘・誤りの報告などは X までどうぞ。
 
-- X: [@ai_makase](https://twitter.com/ai_makase)
+- X: [@AI_makase5](https://x.com/AI_makase5)

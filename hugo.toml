@@ -30,7 +30,7 @@ googleAnalytics = ''  # GA4 測定ID（例: G-XXXXXXXXXX）取得後にここへ
 
 [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/ai_makase"
+  url = "https://x.com/AI_makase5"
 
 [[params.socialIcons]]
   name = "rss"
