@@ -1,15 +1,16 @@
 baseURL = 'https://aidev-log.vercel.app/'
 locale = 'ja-jp'
 defaultContentLanguage = 'ja'
-title = 'aidev_log'
+title = 'AIまかせ'
 theme = 'PaperMod'
+googleAnalytics = ''  # GA4 測定ID（例: G-XXXXXXXXXX）取得後にここへセット
 
 [pagination]
   pagerSize = 10
 
 [params]
-  description = "Claude Codeに作らせた個人開発の現場ログ。n8n × Docker × AI で詰まったところを記録します。"
-  author = "aidev_log"
+  description = "Claude Codeに作らせた個人開発の現場ログ。AIで完結しなかった部分と、結果として詰まった技術の罠を書いています。"
+  author = "AIまかせ"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
@@ -21,14 +22,15 @@ theme = 'PaperMod'
   ShowRssButtonInSectionTermList = true
   ShowWordCount = false
   ShowFullTextinRSS = false
+  googleSiteVerification = ''  # Search Console 所有権確認コード取得後にここへセット
 
 [params.homeInfoParams]
-  Title = "aidev_log"
-  Content = "Claude Codeに作らせた個人開発の現場ログ。n8n × Docker × AI 系のニッチで詰まったところを残しています。"
+  Title = "AIまかせ"
+  Content = "Claude Codeに作らせた個人開発の現場ログ。AIで完結しなかった部分と、結果として詰まった技術の罠を書いています。"
 
 [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/aidev_log_jp"
+  url = "https://twitter.com/ai_makase"
 
 [[params.socialIcons]]
   name = "rss"
