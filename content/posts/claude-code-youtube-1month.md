@@ -4,7 +4,7 @@ date: 2026-05-08
 tags: [Claude Code, AI, 自動化, YouTube, 個人開発, 副業]
 description: "Claude Code に YouTube Shorts 自動投稿システムを作ってもらい、約1ヶ月運用した記録。仕組みは動いたが、AI で完全に賄えなかった「日本語品質」のボトルネックについて。"
 slug: "claude-code-youtube-1month"
-draft: true
+draft: false
 ---
 
 > このシステムは Claude Code (Anthropic) に作ってもらったものです。コードは私が書いていません。この記事も Claude に書いてもらいました。「AI に任せて作ったら、どこで詰まるか」の現場記録として読んでください。
