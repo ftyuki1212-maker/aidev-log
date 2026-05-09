@@ -3,7 +3,7 @@ locale = 'ja-jp'
 defaultContentLanguage = 'ja'
 title = 'AIまかせ'
 theme = 'PaperMod'
-googleAnalytics = ''  # GA4 測定ID（例: G-XXXXXXXXXX）取得後にここへセット
+googleAnalytics = 'G-2HK18ZYEXK'
 
 [pagination]
   pagerSize = 10
@@ -22,7 +22,7 @@ googleAnalytics = ''  # GA4 測定ID（例: G-XXXXXXXXXX）取得後にここへ
   ShowRssButtonInSectionTermList = true
   ShowWordCount = false
   ShowFullTextinRSS = false
-  googleSiteVerification = ''  # Search Console 所有権確認コード取得後にここへセット
+  googleSiteVerification = 'CduYBuKWJKPHFELcDks9OqsevKq3dQaFCheXNKIXdzw'
 
 [params.homeInfoParams]
   Title = "AIまかせ"
